@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  trailingSlash: `always`,
   siteMetadata: {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
@@ -52,14 +53,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            // https://www.gatsbyjs.org/packages/gatsby-remark-external-links
-            resolve: 'gatsby-remark-external-links',
-            options: {
-              target: '_blank',
-              rel: 'nofollow noopener noreferrer',
-            },
-          },
           {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',

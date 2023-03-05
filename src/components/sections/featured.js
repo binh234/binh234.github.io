@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { FormattedIcon } from '@components/icons';
@@ -106,7 +106,7 @@ const StyledLinkWrapper = styled.div`
     }
   }
 `;
-const StyledFeaturedImg = styled(Img)`
+const StyledFeaturedImg = styled(GatsbyImage)`
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
@@ -275,7 +275,7 @@ const Featured = ({ data }) => {
                   href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
-                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                  <StyledFeaturedImg image={cover.childImageSharp.gatsbyImageData} alt={title} />
                 </StyledImgContainer>
               </StyledProject>
             );
