@@ -1,14 +1,13 @@
 ---
-date: '1'
-title: 'Caim Consulting'
-cover: 'demo1.png'
-github: 'https://github.com/caimconsulting/caim-consulting-website'
-external: 'https://caimconsulting.in/'
+date: "1"
+title: "Autosub"
+cover: "demo1.png"
+github: "https://github.com/caimconsulting/caim-consulting-website"
+external: "https://caimconsulting.in/"
 tech:
-  - HTML
-  - CSS
-  - Javascript
-  - Bootstrap
+  - Python
+  - Pytorch
+  - Transformers
 
 showInProjects: true
 ---

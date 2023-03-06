@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -18,7 +18,13 @@ const IconLoader = () => (
                   L 89, 28 z"
       />
     </g>
-    <text x="35" y="68" fill="currentColor" fontSize="55px" fontFamily="Consolas">
+    <text
+      x="35"
+      y="68"
+      fill="currentColor"
+      fontSize="55px"
+      fontFamily="Consolas"
+    >
       B
     </text>
   </svg>

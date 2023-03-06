@@ -1,12 +1,12 @@
 ---
-date: '2019-04-30'
-title: 'Student Management System'
-github: 'https://github.com/chandrikadeb7/StudentManagementSystem'
-external: ''
+date: "2019-04-30"
+title: "Student Management System"
+github: "https://github.com/chandrikadeb7/StudentManagementSystem"
+external: ""
 tech:
   - Java
   - Sqlite
-company: ''
+company: ""
 showInProjects: false
 ---
 

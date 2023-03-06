@@ -1,14 +1,14 @@
 ---
-date: '2019-05-31'
-title: 'My Online Store'
-github: 'https://github.com/chandrikadeb7/MyOnlineStore'
-external: ''
+date: "2019-05-31"
+title: "My Online Store"
+github: "https://github.com/chandrikadeb7/MyOnlineStore"
+external: ""
 tech:
   - PHP
   - MySQL
   - HTML
   - CSS
-company: 'CCL'
+company: "CCL"
 showInProjects: false
 ---
 

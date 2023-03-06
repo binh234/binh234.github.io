@@ -1,12 +1,12 @@
 ---
-date: '2022-02-01'
-title: 'Learn Beginner Golang'
-github: 'https://github.com/chandrikadeb7/learning-easy-golang'
-external: ''
+date: "2022-02-01"
+title: "Learn Beginner Golang"
+github: "https://github.com/chandrikadeb7/learning-easy-golang"
+external: ""
 tech:
   - Go
   - Rest API
-company: ''
+company: ""
 showInProjects: true
 ---
 

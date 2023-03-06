@@ -1,9 +1,9 @@
 ---
-date: '2'
-title: 'GirlScript Twitter Bot'
-cover: 'bot.png'
-github: 'https://github.com/chandrikadeb7/Girlscript-Twitter-Bot'
-external: 'https://twitter.com/girlscript_bot'
+date: "2"
+title: "GirlScript Twitter Bot"
+cover: "bot.png"
+github: "https://github.com/chandrikadeb7/Girlscript-Twitter-Bot"
+external: "https://twitter.com/girlscript_bot"
 tech:
   - Python
   - tweepy

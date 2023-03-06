@@ -1,14 +1,14 @@
 ---
-date: '2019-12-12'
-title: 'Face Recognition in Python'
-github: 'https://github.com/chandrikadeb7/Face-Recognition-in-Python'
-external: ''
+date: "2019-12-12"
+title: "Face Recognition in Python"
+github: "https://github.com/chandrikadeb7/Face-Recognition-in-Python"
+external: ""
 tech:
   - Python
   - OpenCV
   - Pillow
   - NumPy
-company: ''
+company: ""
 showInProjects: true
 ---
 
