@@ -1,15 +1,11 @@
 ---
-date: "2021-07-07"
+date: "2023-02-25"
 title: "Freelancer"
 company: "Upwork"
-range: "July 2021 - Present"
-url: "https://www.peppercontent.io"
+range: "Feb 2023 - Present"
+url: "https://www.upwork.com/"
 ---
 
-- Creating Tech Content as a freelancer for the content giant [Pepper Content](https://www.peppercontent.io).
+- Work as a freelancer on UpWork.
 
-- Submitted tech blogs on various popular topics for American Technology Consulting in 2500 words with a rating of 4.5/5.0.
-
-- Submitted a White Paper for Nous Infosystems in 1500 words with a rating of 5.0/5.0.
-
-- View all my submitted articles and blogs [here](https://drive.google.com/drive/folders/1e8rnyb-r07s6Ss8QInvjiLU4rhJAYTCZ?usp=sharing).
+<!-- - Submitted a White Paper for Nous Infosystems in 1500 words with a rating of 5.0/5.0. -->

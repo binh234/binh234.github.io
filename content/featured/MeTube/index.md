@@ -1,17 +1,15 @@
 ---
-date: "3"
-title: "Face Mask Detection"
+date: "2023-02-25"
+title: "MeTube"
 cover: "face-mask.png"
-github: "https://github.com/chandrikadeb7/Face-Mask-Detection"
-external: "https://www.youtube.com/watch?v=AAkNyZlUae0"
+github: "https://github.com/binh234/metube"
+external: "https://animated-tanuki-9d8b63.netlify.app"
 tech:
-  - OpenCV
-  - TensorFlow
-  - Keras
-  - Python
+  - React
+  - MUI 5
+  - Rapid API
 showInProjects: true
 ---
 
-Face Mask Detection system to detect face masks in static images as well as in real-time video streams. Own custom dataset was built using Bing Search API and Kaggle.
-
-Inspired by Adrian Rosebrock's [PyImageSearch Blog](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/).
+The project aimed to replicate the core functionality of YouTube, such as video searching, playing, and recommendations. 
+I used ReactJS to build the frontend of the application, creating components such as the video player, search bar, and video recommendation section. To access the YouTube video data, I utilized the Rapid API to retrieve videos, recommendations, video/channel metadata, and comments as well.

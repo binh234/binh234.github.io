@@ -5,8 +5,8 @@ subtitle: "I love exploring new things!"
 buttonText: "Contact Me"
 ---
 
-I am passionate about leveraging machine learning and deep learning techniques to solve real-world problems. I have explored different technologies during my career ranging from Web Development to AI/ML. 
+I am passionate about leveraging machine learning and deep learning techniques to solve real-world problems. I have explored different technologies during my career including Artificial Intelligent/Machine Learning, Software Development, and Cloud technologies as well. 
 
-My strong background in mathematics and programming, along with my experience in developing machine learning models, allows me to tackle complex problems and develop innovative solutions.
+<!-- My strong background in mathematics and programming, along with my experience in developing machine learning models, allows me to tackle complex problems and develop innovative solutions. -->
 
 If you are looking for a dedicated and skilled AI/ML Engineer to join your team, please feel free to reach out to me. I am excited to discuss how my skills and experience can contribute to your organization's success.
