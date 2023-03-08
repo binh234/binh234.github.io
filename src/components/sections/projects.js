@@ -12,7 +12,7 @@ const { colors, fontSizes, fonts } = theme;
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-center;
 `;
 const StyledTitle = styled.h4`
   margin: 0 auto;
@@ -34,12 +34,11 @@ const StyledArchiveLink = styled(Link)`
 `;
 const StyledGrid = styled.div`
   margin-top: 50px;
-  margin-left: 10%;
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
     position: relative;
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
   }
@@ -124,7 +123,7 @@ const StyledTechList = styled.ul`
   }
 `;
 const StyledMoreButton = styled(Button)`
-  margin: 100px auto 0;
+  margin: 80px auto 0;
 `;
 
 const Projects = ({ data }) => {
@@ -141,7 +140,7 @@ const Projects = ({ data }) => {
     );
   }, []);
 
-  const GRID_LIMIT = 9;
+  const GRID_LIMIT = 6;
   const projects = data.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
@@ -226,6 +225,9 @@ const Projects = ({ data }) => {
             })}
         </TransitionGroup>
       </StyledGrid>
+      <StyledMoreButton className="more-button" onClick={() => setShowMore(!showMore)}>
+        Show {showMore ? 'Less' : 'More'}
+      </StyledMoreButton>
     </StyledContainer>
   );
 };

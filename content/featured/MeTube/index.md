@@ -11,5 +11,4 @@ tech:
 showInProjects: true
 ---
 
-The project aimed to replicate the core functionality of YouTube, such as video searching, playing, and recommendations. 
-I used ReactJS to build the frontend of the application, creating components such as the video player, search bar, and video recommendation section. To access the YouTube video data, I utilized the Rapid API to retrieve videos, recommendations, video/channel metadata, and comments as well.
+A web application consisting of stunning video sections, custom categories, channel pages, video searching, and a video player. Search and view your favorite videos, detailed video information, and see other thoughts.

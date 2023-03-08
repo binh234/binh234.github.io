@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-Developed a vehicle counting system using OpenCV and YOLOv3 object detection model. The system uses streams from videos or live traffic cameras to detect and track vehicles, and provides a count of the total number of vehicles passing through the monitored area.
+Create a vehicle counting system using OpenCV and YOLOv3 object detection model. The system uses streams from videos or live traffic cameras to detect and track vehicles, and provides a count of the total number of vehicles passing through the monitored area.

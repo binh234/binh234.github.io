@@ -60,7 +60,7 @@ const Loader = ({ finishLoading }) => {
       .add({
         targets: "#logo",
         delay: 400,
-        duration: 300,
+        duration: 200,
         easing: "easeInOutQuart",
         opacity: 0,
         scale: 0.1,
