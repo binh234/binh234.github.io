@@ -1,7 +1,7 @@
 ---
 date: "2021-03-21"
 title: "Vehicle Counting"
-cover: "bot.png"
+cover: "demo.png"
 github: "https://github.com/binh234/vehicle_couting"
 external: ""
 tech:
