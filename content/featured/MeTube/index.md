@@ -1,7 +1,7 @@
 ---
 date: "2023-02-25"
 title: "MeTube"
-cover: "face-mask.png"
+cover: "homepage.png"
 github: "https://github.com/binh234/metube"
 external: "https://animated-tanuki-9d8b63.netlify.app"
 tech:

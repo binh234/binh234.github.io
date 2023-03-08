@@ -2,8 +2,8 @@
 date: "2021-03-21"
 title: "Vehicle Counting"
 cover: "bot.png"
-github: "https://github.com/binh234/vehicle-counting"
-# external: "https://twitter.com/girlscript_bot"
+github: "https://github.com/binh234/vehicle_counting"
+external: ""
 tech:
   - OpenCV
   - YoloV3
