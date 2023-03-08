@@ -1,7 +1,7 @@
 ---
 date: "2021-03-21"
 title: "Vehicle Counting"
-github: "https://github.com/binh234/vehicle_counting"
+github: "https://github.com/binh234/vehicle_couting"
 external: ""
 tech:
   - OpenCV

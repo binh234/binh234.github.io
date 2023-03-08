@@ -1,43 +1,39 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/chandrikadeb7/chandrikadeb7.github.io/blob/code/src/images/logo.png" width="100" />
+  <img alt="Logo" src="src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Portfolio Website Version 2
+  Portfolio Website Version 1
 </h1>
 <p align="center">
-  The second iteration of <a href="https://chandrikadeb7.github.io/" target="_blank">chandrikadeb7.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/chandrikadeb7/chandrikadeb7.github.io-v1" target="_blank">Version 1</a>
+  The first iteration of <a href="https://binh234.github.io/" target="_blank">binh234.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 </p>
 
 <div align="center">
-  <img alt="Demo" src="https://github.com/chandrikadeb7/chandrikadeb7.github.io/blob/code/src/images/demo.png" />
+  <img alt="Demo" src="src/images/demo.png" />
 </div>
 
-### TL;DR
+### 🚨 Forking this repo (please read!)
 
 Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI
-
-   ```sh
-   npm install -g gatsby-cli
-   ```
-
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+1. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm) (Node version 18 or above)
 
    ```sh
    nvm install
    ```
 
+2. Install the Gatsby CLI
+
+   ```sh
+   npm install -g gatsby-cli
+   ```
+
 3. Install dependencies
 
    ```sh
-   yarn
+   npm install
    ```
 
 4. Start the development server
@@ -46,6 +42,7 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    npm start
    ```
 
+5. Go to [localhost:8000](http://localhost:8000)
 ## 🚀 Building and Running for Production
 
 1. Generate a full static production build

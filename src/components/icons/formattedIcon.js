@@ -4,6 +4,7 @@ import {
   IconAppStore,
   IconCodepen,
   IconExternal,
+  IconFacebook,
   IconFolder,
   IconFork,
   IconGitHub,
@@ -26,6 +27,8 @@ const FormattedIcon = ({ name }) => {
       return <IconCodepen />;
     case "External":
       return <IconExternal />;
+    case "Facebook":
+      return <IconFacebook />;
     case "Folder":
       return <IconFolder />;
     case "Fork":
