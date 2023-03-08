@@ -1,38 +1,38 @@
 module.exports = {
-  siteTitle: "Chandrika Deb | Software Developer | Content Freelancer",
+  siteTitle: "Binh Le | AI Engineer | Software Developer",
   siteDescription:
-    "Chandrika Deb is a Software Developer at Amdocs, who loves learning new things and helping tech beginners.",
+    "Le Do Thanh Binh is a freelancer AI Engineer and Software Developer, who loves exploring new things and technologies.",
   siteKeywords:
-    "Chandrika Deb, Chandrika, Deb, chandrikadeb7, software developer, software engineer, content freelancer, face mask, face mask detection, web developer, java developer, pepper content, jamshedpur, amdocs, bit, mesra",
-  siteUrl: "https://chandrikadeb7.github.io/",
+    "Le Do Thanh Binh, Binh Le, Binh, binh234, ai engineer, machine learning enginner, data scientist, software developer, software engineer, web developer, python developer, go developer, natural language processing, speech processing",
+  siteUrl: "https://binh234.github.io/",
   siteLanguage: "en_US",
   googleAnalyticsID: "UA-45666519-2",
   googleVerification: "DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk",
-  name: "Chandrika Deb",
-  location: "Jamshedpur, India",
-  email: "chandrikadeb7@gmail.com",
-  github: "https://github.com/chandrikadeb7",
-  twitterHandle: "@chandrikadeb7",
+  name: "Binh Le",
+  location: "Ho Chi Minh, Viet Nam",
+  email: "binhnd234@gmail.com",
+  github: "https://github.com/binh234",
+  twitterHandle: "@binh234",
   socialMedia: [
     {
       name: "GitHub",
-      url: "https://github.com/chandrikadeb7",
+      url: "https://github.com/binh234",
     },
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/chandrika-deb/",
+      url: "https://www.linkedin.com/in/binh234/",
     },
     {
-      name: "Codepen",
-      url: "https://codepen.io/chandrikadeb7",
+      name: "Facebook",
+      url: "https://facebook.com/binh.le234",
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/chandrikadeb7",
+      url: "https://www.instagram.com/binh234",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/chandrikadeb7",
+      url: "https://twitter.com/binh234",
     },
   ],
 

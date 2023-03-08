@@ -109,7 +109,7 @@ const Footer = () => {
         >
           <div>
             Designed &amp; Built by Brittany Chiang<br></br>
-            Revised by Chandrika Deb
+            Revised by Binh Le
           </div>
 
           {githubInfo.stars && githubInfo.forks && (

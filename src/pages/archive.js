@@ -111,7 +111,7 @@ const ArchivePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Archive | Chandrika Deb</title>
+        <title>Archive | Binh Le</title>
         <link rel="canonical" href="https://binh234.github.io/archive" />
       </Helmet>
 
