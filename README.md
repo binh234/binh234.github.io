@@ -19,6 +19,12 @@ This is an update version of [https://github.com/bchiang7/v4](https://github.com
 
 Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
+To make your own portfolio website, follows these steps:
+
+1. Change logo inside `src/components/icons/loader.js` and `src/components/icons/logo.js`
+2. Modify every things inside `content` folder to your own
+3. Update `resume` inside `static` folder
+
 ## 🛠 Installation & Set Up
 
 1. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm) (Node version 18 or above)
