@@ -24,6 +24,7 @@ To make your own portfolio website, follows these steps:
 1. Change logo inside `src/components/icons/loader.js` and `src/components/icons/logo.js`
 2. Modify every things inside `content` folder to your own
 3. Update `resume` inside `static` folder
+4. Follow `Steps-to-deploy.md` to deploy on github pages
 
 ## 🛠 Installation & Set Up
 

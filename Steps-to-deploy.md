@@ -6,11 +6,7 @@
 
 - source ~/.nvm/nvm.sh
 
-- nvm install node (version 16)
-
-- npm install -g yarn
-
-- yarn
+- nvm install node (version 18 or above)
 
 - npm install -g gatsby-cli
 
