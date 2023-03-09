@@ -47,6 +47,7 @@ const StyledTagsContainer = styled(Main)`
 `;
 
 const TagTemplate = ({ pageContext, data, location }) => {
+  console.log(data);
   const { tag } = pageContext;
   const { edges } = data.allMarkdownRemark;
 
