@@ -27,12 +27,12 @@ module.exports = {
       url: "https://facebook.com/binh.le234",
     },
     {
-      name: "Instagram",
-      url: "https://www.instagram.com/binh234",
+      name: "Skype",
+      url: "https://join.skype.com/invite/uLrgDO5r0gAb",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/binh234",
+      url: "https://twitter.com/BinhLe48668291",
     },
   ],
 

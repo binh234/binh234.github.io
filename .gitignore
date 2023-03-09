@@ -217,4 +217,6 @@ GitHub.sublime-settings
 .history
 .ionide
 
+resume_tmp.pdf
+
 # End of https://www.toptal.com/developers/gitignore/api/gatsby,node,react,visualstudiocode,sublimetext,metals
