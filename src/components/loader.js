@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 import anime from "animejs";
 import { IconLoader } from "@components/icons";
@@ -36,6 +35,8 @@ const StyledLogo = styled.div`
     }
   }
 `;
+
+// export const Head = ()
 
 const Loader = ({ finishLoading }) => {
   const animate = () => {
@@ -84,7 +85,7 @@ const Loader = ({ finishLoading }) => {
 
   return (
     <StyledContainer className="loader">
-      <Helmet bodyAttributes={{ class: `hidden` }} />
+      {/* <Helmet bodyAttributes={{ class: `hidden` }} /> */}
 
       <StyledLogo isMounted={isMounted}>
         <IconLoader />

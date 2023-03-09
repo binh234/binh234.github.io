@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { throttle } from "@utils";
@@ -168,6 +167,8 @@ const StyledResumeButton = styled.a`
 
 const DELTA = 5;
 
+export const Head = () => <body className={menuOpen ? "blur" : ""} />;
+
 class Nav extends Component {
   state = {
     isMounted: !this.props.isHome,
@@ -249,9 +250,6 @@ class Nav extends Component {
 
     return (
       <StyledContainer scrollDirection={scrollDirection}>
-        <Helmet>
-          <body className={menuOpen ? "blur" : ""} />
-        </Helmet>
         <StyledNav>
           <TransitionGroup component={null}>
             {isMounted && (

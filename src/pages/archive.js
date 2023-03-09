@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { graphql } from "gatsby";
-import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 import sr from "@utils/sr";
 import { srConfig } from "@config";
@@ -94,6 +93,13 @@ const StyledTable = styled.table`
   }
 `;
 
+export const Head = () => (
+  <>
+    <title>Archive | Binh Le</title>
+    <link rel="canonical" href="https://binh234.github.io/archive" />
+  </>
+);
+
 const ArchivePage = ({ location, data }) => {
   const projects = data.allMarkdownRemark.edges;
 
@@ -110,11 +116,6 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet>
-        <title>Archive | Binh Le</title>
-        <link rel="canonical" href="https://binh234.github.io/archive" />
-      </Helmet>
-
       <StyledMainContainer>
         <header ref={revealTitle}>
           <h1 className="big-title">Archive</h1>
@@ -207,7 +208,7 @@ export const pageQuery = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/projects/" } }
-      sort: {frontmatter: {date: DESC}}
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {
