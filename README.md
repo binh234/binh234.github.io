@@ -12,6 +12,9 @@
   <img alt="Demo" src="src/images/demo.png" />
 </div>
 
+### About this repo
+This is an update version of [https://github.com/bchiang7/v4](https://github.com/bchiang7/v4), React is updated to version 18 and Gatsby to version 5.
+
 ### 🚨 Forking this repo (please read!)
 
 Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!

@@ -28,6 +28,9 @@ const StyledOverline = styled.h1`
 const StyledTitle = styled.h2`
   font-size: 80px;
   line-height: 1.1;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
