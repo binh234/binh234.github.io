@@ -16,6 +16,6 @@
 
 - git commit -am "changes"
 
-- gatsby build
+<!-- - gatsby build -->
 
 - npm run deploy
