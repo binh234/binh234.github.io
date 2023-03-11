@@ -3,6 +3,7 @@
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Binh Le <binhnd234@gmail.com>",
+  "homepage": "https://binh234.github.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/binh234/binh234.github.io"
@@ -21,7 +22,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public -b main"
   },
   "husky": {
     "hooks": {
