@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://binh234.github.io/sitemap-index.xml
+Host: https://binh234.github.io
