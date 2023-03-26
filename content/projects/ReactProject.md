@@ -6,7 +6,7 @@ external: ""
 tech:
   - React
   - Next.js
-  - TailwinCSS
+  - Tailwind CSS
   - MUI 5
   - Sanity
 company: ""

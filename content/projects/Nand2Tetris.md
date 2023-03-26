@@ -6,7 +6,7 @@ external: ""
 tech:
   - Assembly
 company: ""
-showInProjects: false
+showInProjects: true
 ---
 
 This repository was part of my [Nand2Tetris](https://www.nand2tetris.org/) course on Coursera.
