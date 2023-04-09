@@ -11,7 +11,7 @@ tech:
   - next-auth
   - Sanity
   - GraphQL
-showInProjects: true
+showInProjects: false
 ---
 
 A modern Social Media Website includes the ability to upload, publish, share, comment on, and like videos; filter by categories and advanced search functionalities, profile pages, suggested accounts, custom responsive design, and much more.

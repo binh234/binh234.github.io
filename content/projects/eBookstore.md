@@ -2,7 +2,7 @@
 date: "2021-01-11"
 title: "Online Bookstore"
 github: "https://github.com/binh234/eBookstore"
-external: ""
+external: "https://ebookstore-m6m2.onrender.com"
 tech:
   - Python
   - Django

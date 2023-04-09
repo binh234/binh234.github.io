@@ -7,7 +7,7 @@ tech:
   - React
   - MUI 5
   - Rapid API
-showInProjects: false
+showInProjects: true
 ---
 
 A web application consisting of stunning video sections, custom categories, channel pages, video searching, and a video player. Search and view your favorite videos, detailed video information, and see other thoughts.
