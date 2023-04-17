@@ -1,6 +1,19 @@
 # Ignore artifacts:
 build
 coverage
+node_modules
+out
 public
 .cache
 .github
+
+# Ignore generated files:
+*.json
+*.lock
+*.log
+*.gz
+*.tgz
+
+# Ignore static files:
+public/
+static/
