@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   IconAppStore,
   IconCodepen,
@@ -18,43 +18,43 @@ import {
   IconStar,
   IconTwitter,
   IconZap,
-} from "@components/icons";
+} from '@components/icons';
 
 const FormattedIcon = ({ name }) => {
   switch (name) {
-    case "AppStore":
+    case 'AppStore':
       return <IconAppStore />;
-    case "Codepen":
+    case 'Codepen':
       return <IconCodepen />;
-    case "External":
+    case 'External':
       return <IconExternal />;
-    case "Facebook":
+    case 'Facebook':
       return <IconFacebook />;
-    case "Folder":
+    case 'Folder':
       return <IconFolder />;
-    case "Fork":
+    case 'Fork':
       return <IconFork />;
-    case "GitHub":
+    case 'GitHub':
       return <IconGitHub />;
-    case "Instagram":
+    case 'Instagram':
       return <IconInstagram />;
-    case "Linkedin":
+    case 'Linkedin':
       return <IconLinkedin />;
-    case "Loader":
+    case 'Loader':
       return <IconLoader />;
-    case "Location":
+    case 'Location':
       return <IconLocation />;
-    case "Logo":
+    case 'Logo':
       return <IconLogo />;
-    case "PlayStore":
+    case 'PlayStore':
       return <IconPlayStore />;
-    case "Skype":
+    case 'Skype':
       return <IconSkype />;
-      case "Star":
-        return <IconStar />;
-    case "Twitter":
+    case 'Star':
+      return <IconStar />;
+    case 'Twitter':
       return <IconTwitter />;
-    case "Zap":
+    case 'Zap':
       return <IconZap />;
     default:
       return <IconExternal />;

@@ -1,13 +1,13 @@
 ---
-date: "2020-06-28"
-title: "BK Food Court"
-github: "https://github.com/binh234/bk-foodcourt"
-external: ""
+date: '2020-06-28'
+title: 'BK Food Court'
+github: 'https://github.com/binh234/bk-foodcourt'
+external: ''
 tech:
   - Java/Kotlin
   - Android Studio
   - Firebase
-company: ""
+company: ''
 showInProjects: true
 ---
 

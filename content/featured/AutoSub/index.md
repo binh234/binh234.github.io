@@ -1,8 +1,8 @@
 ---
-date: "2022-05-31"
-title: "Autosub"
-cover: "editor.png"
-github: "https://github.com/binh234/autosub"
+date: '2022-05-31'
+title: 'Autosub'
+cover: 'editor.png'
+github: 'https://github.com/binh234/autosub'
 # external: "https://caimconsulting.in/"
 tech:
   - Python

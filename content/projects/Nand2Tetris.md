@@ -1,11 +1,11 @@
 ---
-date: "2019-12-12"
-title: "Nand2Tetris"
-github: "https://github.com/binh234/Nand2Tetris"
-external: ""
+date: '2019-12-12'
+title: 'Nand2Tetris'
+github: 'https://github.com/binh234/Nand2Tetris'
+external: ''
 tech:
   - Assembly
-company: ""
+company: ''
 showInProjects: true
 ---
 

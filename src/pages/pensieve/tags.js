@@ -1,10 +1,10 @@
-import React from "react";
-import { Link, graphql } from "gatsby";
-import kebabCase from "lodash/kebabCase";
-import PropTypes from "prop-types";
-import { Layout } from "@components";
-import styled from "styled-components";
-import { theme, mixins, Main } from "@styles";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import kebabCase from 'lodash/kebabCase';
+import PropTypes from 'prop-types';
+import { Layout } from '@components';
+import styled from 'styled-components';
+import { theme, mixins, Main } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledTagsContainer = styled(Main)`
@@ -31,7 +31,7 @@ const StyledTagsContainer = styled(Main)`
   }
 `;
 
-export const Head = ({title}) => <title>{title}</title>;
+export const Head = ({ title }) => <title>{title}</title>;
 
 const TagsPage = ({
   data: {
@@ -91,10 +91,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      limit: 2000
-      filter: { frontmatter: { draft: { ne: true } } }
-    ) {
+    allMarkdownRemark(limit: 2000, filter: { frontmatter: { draft: { ne: true } } }) {
       group(field: { frontmatter: { tags: SELECT } }) {
         fieldValue
         totalCount

@@ -1,13 +1,13 @@
 ---
-date: "2020-11-11"
-title: "Car Rental Management System"
-github: "https://github.com/binhtran432k/Lab_OOP-L01-Bida"
-external: ""
+date: '2020-11-11'
+title: 'Car Rental Management System'
+github: 'https://github.com/binhtran432k/Lab_OOP-L01-Bida'
+external: ''
 tech:
   - C#
   - Winform
   - Sqlite
-company: ""
+company: ''
 showInProjects: false
 ---
 

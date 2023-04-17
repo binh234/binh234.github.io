@@ -1,8 +1,8 @@
 ---
-date: "2023-04-07"
-title: "AI/ML"
-github: "https://github.com/binh234/AI-ML"
-external: ""
+date: '2023-04-07'
+title: 'AI/ML'
+github: 'https://github.com/binh234/AI-ML'
+external: ''
 tech:
   - Machine Learning
   - Computer Vision
@@ -10,7 +10,7 @@ tech:
   - NLP
   - Grap Neural Network
   - Data Visualization
-company: ""
+company: ''
 showInProjects: true
 ---
 

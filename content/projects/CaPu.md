@@ -1,8 +1,8 @@
 ---
-date: "2022-04-14"
-title: "Automatic Capitalization and Puctuation"
-github: "https://github.com/binh234/capu"
-external: "https://huggingface.co/dragonSwing/vibert-capu"
+date: '2022-04-14'
+title: 'Automatic Capitalization and Puctuation'
+github: 'https://github.com/binh234/capu'
+external: 'https://huggingface.co/dragonSwing/vibert-capu'
 tech:
   - Python
   - Pytorch

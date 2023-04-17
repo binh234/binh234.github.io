@@ -1,9 +1,9 @@
 ---
-date: "2023-03-25"
-title: "Moments"
-cover: "homepage.png"
-github: "https://github.com/binh234/moment"
-external: "https://next-moments.vercel.app"
+date: '2023-03-25'
+title: 'Moments'
+cover: 'homepage.png'
+github: 'https://github.com/binh234/moment'
+external: 'https://next-moments.vercel.app'
 tech:
   - React
   - Next.js

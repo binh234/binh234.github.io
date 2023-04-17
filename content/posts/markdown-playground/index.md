@@ -1,9 +1,9 @@
 ---
 title: Markdown Test File
 description: abc234
-date: "2019-12-07"
+date: '2019-12-07'
 draft: true
-slug: "/pensieve/markdown-playground/"
+slug: '/pensieve/markdown-playground/'
 tags:
   - Testing
 ---
@@ -93,7 +93,7 @@ This is a paragraph.
     --------
 
 ```css
-@import "compass/reset";
+@import 'compass/reset';
 
 // variables
 $colorGreen: #008000;
@@ -119,14 +119,14 @@ button {
 div,
 .navbar,
 #header,
-input[type="input"] {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+input[type='input'] {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   width: auto;
   margin: 0 auto;
   display: block;
 }
 
-.row-12 > [class*="spans"] {
+.row-12 > [class*='spans'] {
   border-left: 1px solid #b5c583;
 }
 
@@ -141,7 +141,7 @@ ul {
     float: left;
     margin-right: 10px;
     .home {
-      background: url("http://placehold.it/20") scroll no-repeat 0 0;
+      background: url('http://placehold.it/20') scroll no-repeat 0 0;
     }
   }
 }
@@ -322,13 +322,13 @@ Paragraph:
 
     ---------------------------------------
 
-This is [an example](http://example.com "Example") link.
+This is [an example](http://example.com 'Example') link.
 
 [This link](http://example.com) has no title attr.
 
 This is [an example][id] reference-style link.
 
-[id]: http://example.com "Optional Title"
+[id]: http://example.com 'Optional Title'
 
     This is [an example](http://example.com "Example") link.
 

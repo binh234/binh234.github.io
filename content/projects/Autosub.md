@@ -1,8 +1,8 @@
 ---
-date: "2022-05-31"
-title: "Autosub"
-github: "https://github.com/binh234/autosub"
-external: ""
+date: '2022-05-31'
+title: 'Autosub'
+github: 'https://github.com/binh234/autosub'
+external: ''
 tech:
   - Python
   - Pytorch

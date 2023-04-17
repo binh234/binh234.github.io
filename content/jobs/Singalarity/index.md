@@ -1,9 +1,9 @@
 ---
-date: "2021-06-30"
-title: "AI Intern"
-company: "Singalarity"
-range: "Jun 2021 - Sep 2021"
-url: "https://singalarity.com/"
+date: '2021-06-30'
+title: 'AI Intern'
+company: 'Singalarity'
+range: 'Jun 2021 - Sep 2021'
+url: 'https://singalarity.com/'
 ---
 
 - Learned how to use Docker and Kubernetes in the development process

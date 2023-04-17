@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types";
-import anime from "animejs";
-import { IconLoader } from "@components/icons";
-import styled from "styled-components";
-import { theme, mixins } from "@styles";
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+import anime from 'animejs';
+import { IconLoader } from '@components/icons';
+import styled from 'styled-components';
+import { theme, mixins } from '@styles';
 const { colors } = theme;
 
 const StyledContainer = styled.div`
@@ -46,30 +46,30 @@ const Loader = ({ finishLoading }) => {
 
     loader
       .add({
-        targets: "#logo path",
+        targets: '#logo path',
         delay: 300,
         duration: 900,
-        easing: "easeInOutQuart",
+        easing: 'easeInOutQuart',
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
-        targets: "#logo #B",
+        targets: '#logo #B',
         duration: 400,
-        easing: "easeInOutQuart",
+        easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
-        targets: "#logo",
+        targets: '#logo',
         delay: 400,
         duration: 200,
-        easing: "easeInOutQuart",
+        easing: 'easeInOutQuart',
         opacity: 0,
         scale: 0.1,
       })
       .add({
-        targets: ".loader",
+        targets: '.loader',
         duration: 200,
-        easing: "easeInOutQuart",
+        easing: 'easeInOutQuart',
         opacity: 0,
         zIndex: -1,
       });

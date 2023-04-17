@@ -1,11 +1,11 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import kebabCase from "lodash/kebabCase";
-import PropTypes from "prop-types";
-import { Layout } from "@components";
-import { IconZap } from "@components/icons";
-import styled from "styled-components";
-import { theme, mixins, media, Main } from "@styles";
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import kebabCase from 'lodash/kebabCase';
+import PropTypes from 'prop-types';
+import { Layout } from '@components';
+import { IconZap } from '@components/icons';
+import styled from 'styled-components';
+import { theme, mixins, media, Main } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledMainContainer = styled(Main)`
@@ -118,8 +118,8 @@ const StyledTags = styled.ul`
 
 export const Head = () => (
   <>
-  <title>Pensieve | Binh Le</title>
-  <link rel="canonical" href="https://binh234.github.io/pensieve" />
+    <title>Pensieve | Binh Le</title>
+    <link rel="canonical" href="https://binh234.github.io/pensieve" />
   </>
 );
 
@@ -161,9 +161,7 @@ const PensievePage = ({ location, data }) => {
                             </StyledFolder>
                           </StyledPostHeader>
                           <StyledPostName>{title}</StyledPostName>
-                          <StyledPostDescription>
-                            {description}
-                          </StyledPostDescription>
+                          <StyledPostDescription>{description}</StyledPostDescription>
                         </Link>
                       </header>
                       <footer>
@@ -171,9 +169,7 @@ const PensievePage = ({ location, data }) => {
                         <StyledTags>
                           {tags.map((tag, i) => (
                             <li key={i}>
-                              <Link to={`/pensieve/tags/${kebabCase(tag)}/`}>
-                                #{tag}
-                              </Link>
+                              <Link to={`/pensieve/tags/${kebabCase(tag)}/`}>#{tag}</Link>
                             </li>
                           ))}
                         </StyledTags>
@@ -199,11 +195,8 @@ export default PensievePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/posts/" }
-        frontmatter: { draft: { ne: true } }
-      }
-      sort: {frontmatter: {date: DESC}}
+      filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
+      sort: { frontmatter: { date: DESC } }
     ) {
       edges {
         node {

@@ -1,12 +1,12 @@
-import React, { useRef, useEffect } from "react";
-import { graphql } from "gatsby";
-import PropTypes from "prop-types";
-import sr from "@utils/sr";
-import { srConfig } from "@config";
-import { Layout } from "@components";
-import { FormattedIcon } from "@components/icons";
-import styled from "styled-components";
-import { theme, mixins, media, Main } from "@styles";
+import React, { useRef, useEffect } from 'react';
+import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
+import sr from '@utils/sr';
+import { srConfig } from '@config';
+import { Layout } from '@components';
+import { FormattedIcon } from '@components/icons';
+import styled from 'styled-components';
+import { theme, mixins, media, Main } from '@styles';
 const { colors, fonts, fontSizes } = theme;
 
 const StyledMainContainer = styled(Main)``;
@@ -109,9 +109,7 @@ const ArchivePage = ({ location, data }) => {
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
     sr.reveal(revealTable.current, srConfig());
-    revealProjects.current.forEach((ref, i) =>
-      sr.reveal(ref, srConfig(i * 10))
-    );
+    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 10)));
   }, []);
 
   return (
@@ -136,13 +134,10 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const { date, github, external, title, tech, company } =
-                    node.frontmatter;
+                  const { date, github, external, title, tech, company } = node.frontmatter;
                   return (
                     <tr key={i} ref={(el) => (revealProjects.current[i] = el)}>
-                      <td className="overline year">{`${new Date(
-                        date
-                      ).getFullYear()}`}</td>
+                      <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
 
                       <td className="title">{title}</td>
 
@@ -155,10 +150,8 @@ const ArchivePage = ({ location, data }) => {
                           tech.map((item, i) => (
                             <span key={i}>
                               {item}
-                              {""}
-                              {i !== tech.length - 1 && (
-                                <span className="separator">&middot;</span>
-                              )}
+                              {''}
+                              {i !== tech.length - 1 && <span className="separator">&middot;</span>}
                             </span>
                           ))}
                       </td>

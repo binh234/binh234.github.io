@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
-import PropTypes from "prop-types";
-import sr from "@utils/sr";
-import { srConfig } from "@config";
-import styled from "styled-components";
-import { theme, mixins, media, Section, Heading } from "@styles";
+import React, { useState, useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
+import sr from '@utils/sr';
+import { srConfig } from '@config';
+import styled from 'styled-components';
+import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -100,8 +100,7 @@ const StyledHighlight = styled.span`
   transition-delay: 0.1s;
   z-index: 10;
   transform: translateY(
-    ${(props) =>
-      props.activeTabId > 0 ? props.activeTabId * theme.tabHeight : 0}px
+    ${(props) => (props.activeTabId > 0 ? props.activeTabId * theme.tabHeight : 0)}px
   );
   ${media.thone`
     width: 100%;
@@ -110,8 +109,7 @@ const StyledHighlight = styled.span`
     top: auto;
     bottom: 0;
     transform: translateX(
-      ${(props) =>
-        props.activeTabId > 0 ? props.activeTabId * theme.tabWidth : 0}px
+      ${(props) => (props.activeTabId > 0 ? props.activeTabId * theme.tabWidth : 0)}px
     );
     margin-left: 50px;
   `};
@@ -199,11 +197,7 @@ const Jobs = ({ data }) => {
     <StyledContainer id="jobs" ref={revealContainer}>
       <Heading>Where I&apos;ve Worked</Heading>
       <StyledTabs>
-        <StyledTabList
-          role="tablist"
-          aria-label="Job tabs"
-          onKeyDown={(e) => onKeyPressed(e)}
-        >
+        <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={(e) => onKeyPressed(e)}>
           {data &&
             data.map(({ node }, i) => {
               const { company } = node.frontmatter;
@@ -217,7 +211,7 @@ const Jobs = ({ data }) => {
                     role="tab"
                     aria-selected={activeTabId === i ? true : false}
                     aria-controls={`panel-${i}`}
-                    tabIndex={activeTabId === i ? "0" : "-1"}
+                    tabIndex={activeTabId === i ? '0' : '-1'}
                   >
                     <span>{company}</span>
                   </StyledTabButton>
@@ -238,18 +232,14 @@ const Jobs = ({ data }) => {
                 id={`panel-${i}`}
                 role="tabpanel"
                 aria-labelledby={`tab-${i}`}
-                tabIndex={activeTabId === i ? "0" : "-1"}
+                tabIndex={activeTabId === i ? '0' : '-1'}
                 hidden={activeTabId !== i}
               >
                 <StyledJobTitle>
                   <span>{title}</span>
                   <StyledCompany>
                     <span>&nbsp;@&nbsp;</span>
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="nofollow noopener noreferrer"
-                    >
+                    <a href={url} target="_blank" rel="nofollow noopener noreferrer">
                       {company}
                     </a>
                   </StyledCompany>

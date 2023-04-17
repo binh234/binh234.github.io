@@ -1,9 +1,9 @@
 ---
-date: "2021-03-21"
-title: "Vehicle Counting"
-cover: "demo.png"
-github: "https://github.com/binh234/vehicle_couting"
-external: ""
+date: '2021-03-21'
+title: 'Vehicle Counting'
+cover: 'demo.png'
+github: 'https://github.com/binh234/vehicle_couting'
+external: ''
 tech:
   - OpenCV
   - YoloV3

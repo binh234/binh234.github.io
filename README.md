@@ -13,6 +13,7 @@
 </div>
 
 ### About this repo
+
 This is an update version of [https://github.com/bchiang7/v4](https://github.com/bchiang7/v4), React is updated to version 18 and Gatsby to version 5.
 
 ### 🚨 Forking this repo (please read!)
@@ -53,6 +54,7 @@ To make your own portfolio website, follows these steps:
    ```
 
 5. Go to [localhost:8000](http://localhost:8000)
+
 ## 🚀 Building and Running for Production
 
 1. Generate a full static production build

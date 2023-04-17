@@ -1,15 +1,15 @@
 ---
-date: "2023-01-15"
-title: "Go Projects"
-github: "https://github.com/binh234/go-project"
-external: ""
+date: '2023-01-15'
+title: 'Go Projects'
+github: 'https://github.com/binh234/go-project'
+external: ''
 tech:
   - Go
   - Mux
   - Fiber
   - Blockchain
   - Docker
-company: ""
+company: ''
 showInProjects: true
 ---
 

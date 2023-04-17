@@ -1,9 +1,9 @@
 ---
-date: "2023-04-16"
-title: "3D Shirt"
-cover: "homepage.png"
-github: "https://github.com/binh234/3d-shirt"
-external: "https://3d-shirt.vercel.app"
+date: '2023-04-16'
+title: '3D Shirt'
+cover: 'homepage.png'
+github: 'https://github.com/binh234/3d-shirt'
+external: 'https://3d-shirt.vercel.app'
 tech:
   - threejs
   - React

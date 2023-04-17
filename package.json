@@ -23,7 +23,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public -b main"
+    "deploy": "gh-pages -d public -b main",
+    "prettify": "npx prettier --write ."
   },
   "husky": {
     "hooks": {
@@ -62,7 +63,6 @@
     "gatsby-transformer-remark": "^6.7.0",
     "gatsby-transformer-sharp": "^5.7.0",
     "lodash": "^4.17.21",
-    "prettier": "^2.8.4",
     "prismjs": "^1.29.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -73,6 +73,13 @@
     "styled-components": "^5.3.8"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "prettier": "^2.8.7"
+  },
+  "prettier": {
+    "semi": true,
+    "printWidth": 100,
+    "bracketSpacing": true,
+    "singleQuote": true
   }
 }

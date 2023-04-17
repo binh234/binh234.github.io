@@ -1,8 +1,8 @@
 ---
-title: "Hello World! My name is"
-name: "Le Do Thanh Binh"
-subtitle: "I love exploring new things!"
-buttonText: "Contact Me"
+title: 'Hello World! My name is'
+name: 'Le Do Thanh Binh'
+subtitle: 'I love exploring new things!'
+buttonText: 'Contact Me'
 ---
 
 I am passionate about leveraging machine learning and deep learning techniques to solve real-world problems. I sit in the intersection of machine learning, data science and software development to extract insights and present them in a beautiful and easy-to-understand way that will help your business grow.

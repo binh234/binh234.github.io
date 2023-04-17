@@ -1,11 +1,11 @@
 ---
-date: "2021-06-01"
-title: "Docker Projects"
-github: "https://github.com/binh234/docker-project"
-external: ""
+date: '2021-06-01'
+title: 'Docker Projects'
+github: 'https://github.com/binh234/docker-project'
+external: ''
 tech:
   - Docker
-company: "Singalarity"
+company: 'Singalarity'
 showInProjects: false
 ---
 

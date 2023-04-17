@@ -1,8 +1,8 @@
 ---
-date: "2021-04-21"
-title: "Music Crawler from ZingMP3"
-github: "https://github.com/binh234/data-crawler"
-external: ""
+date: '2021-04-21'
+title: 'Music Crawler from ZingMP3'
+github: 'https://github.com/binh234/data-crawler'
+external: ''
 tech:
   - Python
   - Scrapy

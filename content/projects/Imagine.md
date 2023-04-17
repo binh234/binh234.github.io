@@ -1,9 +1,9 @@
 ---
-date: "2023-04-03"
-title: "Imagine"
-cover: "homepage.png"
-github: "https://github.com/binh234/imagine"
-external: "https://imagine-ai.vercel.app"
+date: '2023-04-03'
+title: 'Imagine'
+cover: 'homepage.png'
+github: 'https://github.com/binh234/imagine'
+external: 'https://imagine-ai.vercel.app'
 tech:
   - React
   - Vite

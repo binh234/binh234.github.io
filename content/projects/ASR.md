@@ -1,13 +1,13 @@
 ---
-date: "2022-04-04"
-title: "Automatic Speech Recognition"
-github: "https://github.com/binh234/wav2vec2-vi-asr"
-external: "https://huggingface.co/dragonSwing/wav2vec2-base-vn-270h"
+date: '2022-04-04'
+title: 'Automatic Speech Recognition'
+github: 'https://github.com/binh234/wav2vec2-vi-asr'
+external: 'https://huggingface.co/dragonSwing/wav2vec2-base-vn-270h'
 tech:
   - Python
   - Pytorch
   - Wav2Vec2
-company: ""
+company: ''
 showInProjects: true
 ---
 

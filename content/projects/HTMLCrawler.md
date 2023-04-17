@@ -1,8 +1,8 @@
 ---
-date: "2020-10-19"
-title: "HTML Crawler"
-github: "https://github.com/binh234/scrapy"
-external: ""
+date: '2020-10-19'
+title: 'HTML Crawler'
+github: 'https://github.com/binh234/scrapy'
+external: ''
 tech:
   - Python
   - Scrapy

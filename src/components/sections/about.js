@@ -1,10 +1,10 @@
-import React, { useEffect, useRef } from "react";
-import PropTypes from "prop-types";
-import { GatsbyImage } from "gatsby-plugin-image";
-import sr from "@utils/sr";
-import { srConfig, github } from "@config";
-import styled from "styled-components";
-import { theme, mixins, media, Section, Heading } from "@styles";
+import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import sr from '@utils/sr';
+import { srConfig, github } from '@config';
+import styled from 'styled-components';
+import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -39,7 +39,7 @@ const Skill = styled.li`
   font-size: ${fontSizes.smish};
   color: ${colors.green};
   &:before {
-    content: "▹";
+    content: '▹';
     position: absolute;
     left: 0;
     color: ${colors.green};
@@ -88,7 +88,7 @@ const StyledAvatarLink = styled.a`
   }
   &:before,
   &:after {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     width: 100%;
@@ -130,10 +130,7 @@ const About = ({ data }) => {
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={github}>
-            <StyledAvatar
-              image={avatar.childImageSharp.gatsbyImageData}
-              alt="Avatar"
-            />
+            <StyledAvatar image={avatar.childImageSharp.gatsbyImageData} alt="Avatar" />
           </StyledAvatarLink>
         </StyledPic>
       </StyledFlexContainer>

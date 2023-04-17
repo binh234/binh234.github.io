@@ -1,6 +1,6 @@
 ---
-title: "About Me"
-avatar: "me.png"
+title: 'About Me'
+avatar: 'me.png'
 skills:
   - Python
   - Tensorflow

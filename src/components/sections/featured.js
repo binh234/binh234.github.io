@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
-import PropTypes from "prop-types";
-import { GatsbyImage } from "gatsby-plugin-image";
-import sr from "@utils/sr";
-import { srConfig } from "@config";
-import { FormattedIcon } from "@components/icons";
-import styled from "styled-components";
-import { theme, mixins, media, Section, Heading } from "@styles";
+import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import sr from '@utils/sr';
+import { srConfig } from '@config';
+import { FormattedIcon } from '@components/icons';
+import styled from 'styled-components';
+import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -145,7 +145,7 @@ const StyledImgContainer = styled.a`
     }
   }
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -211,9 +211,7 @@ const Featured = ({ data }) => {
   const revealProjects = useRef([]);
   useEffect(() => {
     sr.reveal(revealTitle.current, srConfig());
-    revealProjects.current.forEach((ref, i) =>
-      sr.reveal(ref, srConfig(i * 100))
-    );
+    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
   return (
@@ -227,10 +225,7 @@ const Featured = ({ data }) => {
             const { external, title, tech, github, cover } = frontmatter;
 
             return (
-              <StyledProject
-                key={i}
-                ref={(el) => (revealProjects.current[i] = el)}
-              >
+              <StyledProject key={i} ref={(el) => (revealProjects.current[i] = el)}>
                 <StyledContent>
                   <StyledLabel>Featured Project</StyledLabel>
                   <StyledProjectName>
@@ -247,9 +242,7 @@ const Featured = ({ data }) => {
                       title
                     )}
                   </StyledProjectName>
-                  <StyledDescription
-                    dangerouslySetInnerHTML={{ __html: html }}
-                  />
+                  <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
                   {tech && (
                     <StyledTechList>
                       {tech.map((tech, i) => (
@@ -282,14 +275,11 @@ const Featured = ({ data }) => {
                 </StyledContent>
 
                 <StyledImgContainer
-                  href={external ? external : github ? github : "#"}
+                  href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer"
                 >
-                  <StyledFeaturedImg
-                    image={cover.childImageSharp.gatsbyImageData}
-                    alt={title}
-                  />
+                  <StyledFeaturedImg image={cover.childImageSharp.gatsbyImageData} alt={title} />
                 </StyledImgContainer>
               </StyledProject>
             );
