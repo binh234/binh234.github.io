@@ -10,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-A music crawler via API from [zingmp3.vn](zingmp3.vn). You can download songs/lyrics from playlist, album, artist, chart using a few lines of code. 
+A music crawler via API from [zingmp3.vn](zingmp3.vn). You can download songs/lyrics from playlist, album, artist, chart using a few lines of code.
