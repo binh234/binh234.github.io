@@ -5,8 +5,9 @@ github: 'https://github.com/binh234/Nand2Tetris'
 external: ''
 tech:
   - Assembly
+  - Hack
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 This repository was part of my [Nand2Tetris](https://www.nand2tetris.org/) course on Coursera.
